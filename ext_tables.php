@@ -6,7 +6,7 @@ call_user_func(
     {
 
 
-        if (TYPO3_MODE === 'BE') {
+        if (TYPO3 === 'BE') {
 
             \TYPO3\CMS\Extbase\Utility\ExtensionUtility::registerModule(
                 'Typo3Contentblocks.ContentblocksRegApi',
